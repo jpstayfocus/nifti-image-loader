@@ -1,0 +1,9 @@
+﻿  Opengl Project.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+Opengl Project.obj : error LNK2019: unresolved external symbol _gzread referenced in function "bool __cdecl decompressGzipFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?decompressGzipFile@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Opengl Project.obj : error LNK2019: unresolved external symbol _gzclose referenced in function "bool __cdecl decompressGzipFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?decompressGzipFile@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Opengl Project.obj : error LNK2019: unresolved external symbol _gzopen referenced in function "bool __cdecl decompressGzipFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (?decompressGzipFile@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0@Z)
+Opengl Project.obj : error LNK2019: unresolved external symbol _gladLoadGLLoader referenced in function _main
+Opengl Project.obj : error LNK2001: unresolved external symbol _glad_glViewport
+C:\Users\Mubashir\source\repos\Opengl Project\Dependencies\lib\zlibstatic.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Mubashir\source\repos\Opengl Project\Debug\Opengl Project.exe : fatal error LNK1120: 5 unresolved externals
